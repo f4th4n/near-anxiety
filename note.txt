@@ -1,0 +1,100 @@
+Ide game shooter seperti ending nier automata
+
+Yg ditembaki adalah masalah2 hidup dari kecil sampai mati (dan addiction)
+
+Seperti anxiety, drugs, rokok.
+
+Level 1:
+	- Jatuh dari sepeda
+	- PR/HW
+	- PR Fisika, PR Geografi, PR Bahasa
+	- Matematika
+	- Dimarahi Buguru
+	- Kalah bermain
+	- Ujian Nasional
+	- Putus Cinta
+	- Ditertawakan
+	- Kehujanan
+	- Bertengkar
+	[Teenager problem]
+	- Berdebat
+	- Nilai anjlok
+	- Kabur
+	- Dibenci
+	- Beda Pendapat
+	- Tidak Punya Teman
+	- Penampilan
+	- Paket Data Habis
+	- Hantu
+	- Bayangan Tentang Hantu
+	- Kritik
+	- Tidak Populer
+	- Ban Bocor
+	- Menangis
+	- Lupa Pasword
+	- Bangun Kesiangan
+	- Lagu Sedih
+	- 
+
+Level 2:
+	- Teman Meninggal
+	- Trauma Masa Kecil
+	- Rindu Kampung
+	- Tidak Sukses
+	- Takut
+	- Bangkrut
+	- Peliharaan Mati
+	- Patah Tulang
+	- Diabetes
+	Group Gangguan Mental:
+		- /Overthinking
+		- Borderline
+		- Obesitas
+		- Waswas
+		- Depressed
+		- Gila/Schizophrenia
+		- Penyakit Lupa/Dementia
+		- Autisme
+		- /OCD
+		- Self Harm
+		- Fobia/Phobia
+	- Pendidikan
+	- Malu
+	- Kesepian
+	- Sakit pinggang
+	- Difabel
+	- Dipecat
+	Group addiction
+		- Drug Addiction
+		- Smoking addiction
+		- Porn addiction
+	- Malas Beribadah
+	- Putus Asa
+	- Merasa Tidak Berguna
+	- Encok
+	- Dibungkam
+	- Tugas
+	- Menjaga Kehormatan
+	- /Health Crisis
+	- Emptiness and Boredom
+	- Tidak ada uang untuk berobat
+	- Ditinggal Pergi
+
+Level 4:
+- Death of loved ones
+- 
+
+
+Ada scene yang ketika musuh ditembak, lama kelamaan huruf2nya berubah sama sekali, misalnya dari huruf benci jadi huruf stres.
+
+
+Ada scene yang ketika musuh ditembak, lama kelamaan huruf2nya tercerai berai, misalnya dari kata malas, jadi kata bodoh, musuh, susah, panas.
+
+Ada musuh yg elusive, perasaan yg kadang hilang kadang timbul tapi sebenernya tidak pernah mati.
+
+Scene terakhir musuhnya adalah namanya sendiri (yg diinput waktu start game).
+
+-----
+
+IDE (not fixed)
+ada buff emosi2 positif seperti: cinta, harapan, kasih sayang, senyum
