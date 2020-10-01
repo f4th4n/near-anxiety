@@ -34,7 +34,7 @@ Level 1:
 	- Lupa Pasword
 	- Bangun Kesiangan
 	- Lagu Sedih
-	- 
+	- Lapar
 
 Level 2:
 	- Teman Meninggal
