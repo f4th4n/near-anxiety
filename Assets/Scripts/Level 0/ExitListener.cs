@@ -13,7 +13,7 @@ namespace NearAnxiety {
             }
 
             IEnumerator GoToLevel1() {
-                Time.timeScale = 0.3f;
+                Time.timeScale = 0.1f;
                 yield return new WaitForSecondsRealtime(1.0f);
 
                 Time.timeScale = 1;
