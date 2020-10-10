@@ -25,7 +25,6 @@ namespace NearAnxiety {
 
                 // enable/disable joystick gameObject
                 Scene scene = SceneManager.GetActiveScene();
-                Debug.Log("called " + scene.name + " " + config.IsMobile);
                 if(!config.IsMobile) {
                     GameObject.Find("Analog Left").SetActive(false);
                     GameObject.Find("Analog Right").SetActive(false);

@@ -11,7 +11,6 @@ namespace NearAnxiety {
         void Start() {
             // Load text from a JSON file (Assets/Resources/Config.json)
             string jsonString = Resources.Load<TextAsset>("Config").ToString();
-            Debug.Log("jsonString " + jsonString);
             ConfigModel config = JsonUtility.FromJson<ConfigModel>(jsonString);
 
             IsMobile = config.IsMobile;
