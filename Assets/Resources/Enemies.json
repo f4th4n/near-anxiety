@@ -1,0 +1,87 @@
+﻿{
+  "ItemsBak": [
+  ],
+  "Items": [
+    {
+      "Text": "Marah",
+      "X": 21,
+      "Y": 91,
+      "Animation": "Square",
+      "Delay": 0,
+      "Speed": 0.5,
+      "Bullet": "single",
+      "HP": 15
+    },
+    {
+      "Text": "Takut",
+      "X": 78,
+      "Y": 87,
+      "Animation": "Square",
+      "Delay": 0,
+      "Speed": 0.5,
+      "Bullet": "single",
+      "HP": 15
+    },
+    {
+      "Text": "Kesedihan",
+      "X": 56,
+      "Y": 65,
+      "Animation": "Square",
+      "Delay": 0,
+      "Speed": 0.5,
+      "Bullet": "single",
+      "HP": 15
+    },
+    {
+      "Text": "Putus asa",
+      "X": 47,
+      "Y": 77,
+      "Animation": "Square",
+      "Delay": 5,
+      "Speed": 0.5,
+      "Bullet": "cross-plus",
+      "HP": 15
+    },
+    {
+      "Text": "Iri Dengki",
+      "X": 59,
+      "Y": 34,
+      "Animation": "Triangle",
+      "Delay": 5,
+      "Speed": 0.5,
+      "Bullet": "cross-plus",
+      "HP": 15
+    },
+    {
+      "Text": "Anxiety",
+      "X": 50,
+      "Y": 80,
+      "Animation": "Triangle",
+      "Delay": 8,
+      "Speed": 0.5,
+      "Bullet": "plus-rotation",
+      "HP": 15
+    },
+    {
+      "Text": "Anxiety",
+      "X": 59,
+      "Y": 34,
+      "Animation": "Triangle",
+      "Delay": 8,
+      "Speed": 0.5,
+      "Bullet": "plus-rotation",
+      "HP": 15
+    }
+  ],
+  "words": [
+    "Fear",
+    "Anger",
+    "Sadness",
+    "Joy",
+    "Disgust",
+    "Surprise",
+    "Trust",
+    "Anticipation"
+  ],
+  "bullets": ["single", "cross-plus", "plus-rotation"]
+}
