@@ -3,7 +3,8 @@
   ],
   "Items": [
     {
-      "Text": "Marah",
+      "Level": 1,
+      "Text": "Enemy 1",
       "X": 21,
       "Y": 91,
       "Animation": "Square",
@@ -13,7 +14,8 @@
       "HP": 15
     },
     {
-      "Text": "Takut",
+      "Level": 1,
+      "Text": "Enemy 2",
       "X": 78,
       "Y": 87,
       "Animation": "Square",
@@ -23,7 +25,8 @@
       "HP": 15
     },
     {
-      "Text": "Kesedihan",
+      "Level": 1,
+      "Text": "Enemy 3",
       "X": 56,
       "Y": 65,
       "Animation": "Square",
@@ -33,37 +36,41 @@
       "HP": 15
     },
     {
-      "Text": "Putus asa",
+      "Level": 2,
+      "Text": "Enemy 4",
       "X": 47,
       "Y": 77,
       "Animation": "Square",
-      "Delay": 5,
+      "Delay": 0,
       "Speed": 0.5,
       "Bullet": "cross-plus",
       "HP": 15
     },
     {
-      "Text": "Iri Dengki",
+      "Level": 2,
+      "Text": "Enemy 5",
       "X": 59,
       "Y": 34,
       "Animation": "Triangle",
-      "Delay": 5,
+      "Delay": 0,
       "Speed": 0.5,
       "Bullet": "cross-plus",
       "HP": 15
     },
     {
-      "Text": "Anxiety",
+      "Level": 2,
+      "Text": "Enemy 6",
       "X": 50,
       "Y": 80,
       "Animation": "Triangle",
-      "Delay": 8,
+      "Delay": 0,
       "Speed": 0.5,
       "Bullet": "plus-rotation",
       "HP": 15
     },
     {
-      "Text": "Anxiety",
+      "Level": 1,
+      "Text": "Enemy 7",
       "X": 59,
       "Y": 34,
       "Animation": "Triangle",

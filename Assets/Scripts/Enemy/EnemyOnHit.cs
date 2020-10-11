@@ -56,6 +56,9 @@ namespace NearAnxiety {
                     if (HP == 0) {
                         Instantiate(EnemyExplosion, transform.position, Quaternion.identity);
                         Destroy(gameObject);
+
+                        GameObject enemySpawner = GameObject.Find("Enemies");
+                        enemySpawner.SendMessage("DecreaseEnemyRemaining", -1); // EnemiesSpawner.cs
                     }
 
                     Destroy(col.gameObject);

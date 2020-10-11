@@ -9,13 +9,32 @@ namespace NearAnxiety {
     namespace Enemy {
         public class EnemiesSpawner : MonoBehaviour {
             public GameObject enemyPrefab;
+            private int enemyRemaining = 0;
 
             void Start() {
+                spawnEnemiesByLevel();
+            }
+
+            void spawnEnemiesByLevel() {
+                PlayerPrefs.SetInt("level", 2);
                 List<EnemyModel> enemiesData = getEnemiesData();
+                int playerLevel = PlayerPrefs.GetInt("level", 1);
 
                 foreach (EnemyModel enemyData in enemiesData) {
+                    if (enemyData.Level != playerLevel) continue;
+
                     StartCoroutine(createEnemy(enemyData));
+                    enemyRemaining++;
                 }
+            }
+
+            // EnemyOnHit.cs
+            void DecreaseEnemyRemaining(int val) {
+                enemyRemaining--;
+
+                if(enemyRemaining == 0) {
+                    GameObject.Find("Transition").SendMessage("StartTransition", 1);
+				}
             }
 
             IEnumerator createEnemy(EnemyModel enemyData) {

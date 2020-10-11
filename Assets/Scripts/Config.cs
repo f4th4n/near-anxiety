@@ -14,6 +14,14 @@ namespace NearAnxiety {
             ConfigModel config = JsonUtility.FromJson<ConfigModel>(jsonString);
 
             IsMobile = config.IsMobile;
+
+            prepareState();
+        }
+
+        private void prepareState() {
+            if(!PlayerPrefs.HasKey("level")) {
+                PlayerPrefs.SetInt("level", 1);
+            }
         }
     }
 }
