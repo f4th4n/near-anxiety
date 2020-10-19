@@ -18,8 +18,6 @@ namespace NearAnxiety {
             public GameObject VulnerableBullet;
             public GameObject InvulnerableBullet;
 
-            private float shootEveryInSeconds = 1f;
-            private float elapsed = 0f;
             private string bulletMode = "single";
             private GameObject parent;
             private GameObject player;
@@ -27,17 +25,16 @@ namespace NearAnxiety {
             void Start() {
                 parent = GameObject.Find("Enemy Bullets Container");
                 player = GameObject.FindGameObjectWithTag("Player");
+
+                spawn();
             }
 
-            void Update() {
-                elapsed += Time.deltaTime;
-                if (elapsed < shootEveryInSeconds) return;
-                elapsed = elapsed % 1f;
-
-                if (bulletMode == "single") fireSingle();
-                else if (bulletMode == "cross-plus") fireCrossPlus();
-                else if (bulletMode == "plus-rotation") firePlusWithRotation();
-                else if (bulletMode == "boss1") fireBoss1();
+            private void spawn() {
+                if (bulletMode == "single") InvokeRepeating("fireSingle", 0f, 1f);
+                if (bulletMode == "cross-plus") InvokeRepeating("fireCrossPlus", 0f, 1f);
+                if (bulletMode == "plus-rotation") InvokeRepeating("firePlusWithRotation", 0f, 1f);
+                else if (bulletMode == "boss1") InvokeRepeating("fireBoss1", 0f, 0.5f);
+                else if (bulletMode == "boss2") InvokeRepeating("fireBoss2", 0f, 0.1f);
             }
 
             void SetBullet(string bulletModeArg) {
@@ -99,9 +96,48 @@ namespace NearAnxiety {
                 firePlusWithRotationInvulnerableCounter++;
             }
 
+            private int fireBoss1InvulnerableCounterRotation = 3;
+            private int fireBoss1Rotation = 27;
             private void fireBoss1() {
-                // TODO
-        	}
+                fireBoss1Rotation -= 30;
+                GameObject bullet = fireBoss1InvulnerableCounterRotation % 3 == 0 ? InvulnerableBullet : VulnerableBullet;
+
+                List<BulletPos> axises = new List<BulletPos>();
+
+                    axises.Add(new BulletPos(0 + fireBoss1Rotation, bullet));
+                    axises.Add(new BulletPos(45 + fireBoss1Rotation, bullet));
+                    axises.Add(new BulletPos(90 + fireBoss1Rotation, bullet));
+                    axises.Add(new BulletPos(135 + fireBoss1Rotation, bullet));
+                    axises.Add(new BulletPos(-90 + fireBoss1Rotation, bullet));
+                    axises.Add(new BulletPos(-135 + fireBoss1Rotation, bullet));
+                    axises.Add(new BulletPos(-180 + fireBoss1Rotation, bullet));
+                    axises.Add(new BulletPos(-225 + fireBoss1Rotation, bullet));
+
+                foreach (BulletPos axis in axises) {
+                    Instantiate(axis.gameObject, transform.position, Quaternion.AngleAxis(axis.angle, Vector3.forward), parent.transform);
+                }
+                fireBoss1InvulnerableCounterRotation++;
+            }
+
+            // air mancur
+            private int boss2Rotation = 80;
+            private bool boss2RotationInverse = false;
+            private void fireBoss2() {
+                if(boss2Rotation > 280) {
+                    boss2RotationInverse = true;
+				} else if(boss2Rotation < 45) {
+                    boss2RotationInverse = false;
+                }
+
+                if (boss2RotationInverse) {
+                    boss2Rotation -= 15;
+                } else {
+                    boss2Rotation += 15;
+                }
+
+                BulletPos axis = new BulletPos(0 + boss2Rotation, InvulnerableBullet);
+                Instantiate(axis.gameObject, transform.position, Quaternion.AngleAxis(axis.angle, Vector3.forward), parent.transform);
+            }
         }
     }
 }

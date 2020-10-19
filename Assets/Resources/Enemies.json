@@ -4,36 +4,36 @@
   "Items": [
     {
       "Wave": 1,
-      "Text": "Enemy 1",
-      "X": 21,
-      "Y": 86,
-      "Animation": "Square",
+      "Text": "Enemy YY",
+      "X": 25,
+      "Y": 80,
+      "Animation": "Idle",
       "Delay": 0,
       "Speed": 0.5,
-      "Bullet": "single",
-      "HP": 5
+      "Bullet": "boss2",
+      "HP": 10
     },
     {
-      "Wave": 1,
-      "Text": "Enemy 2",
-      "X": 78,
-      "Y": 87,
-      "Animation": "Square",
+      "Wave": 10,
+      "Text": "Enemy ZZ",
+      "X": 80,
+      "Y": 80,
+      "Animation": "Idle",
       "Delay": 0,
       "Speed": 0.5,
-      "Bullet": "single",
-      "HP": 5
+      "Bullet": "boss1",
+      "HP": 10
     },
     {
-      "Wave": 1,
-      "Text": "Enemy 3",
-      "X": 56,
-      "Y": 65,
-      "Animation": "Square",
-      "Delay": 0,
+      "Wave": 10,
+      "Text": "Enemy FF",
+      "X": 50,
+      "Y": 68,
+      "Animation": "Idle",
+      "Delay": 5,
       "Speed": 0.5,
-      "Bullet": "single",
-      "HP": 5
+      "Bullet": "boss1",
+      "HP": 10
     },
     {
       "Wave": 2,
@@ -67,17 +67,6 @@
       "Speed": 0.5,
       "Bullet": "plus-rotation",
       "HP": 5
-    },
-    {
-      "Wave": 1,
-      "Text": "Enemy 7",
-      "X": 59,
-      "Y": 34,
-      "Animation": "Triangle",
-      "Delay": 8,
-      "Speed": 0.5,
-      "Bullet": "plus-rotation",
-      "HP": 5
     }
   ],
   "words": [
@@ -90,5 +79,23 @@
     "Trust",
     "Anticipation"
   ],
-  "bullets": ["single", "cross-plus", "plus-rotation"]
+  "bullets": ["single", "cross-plus", "plus-rotation"],
+  "Intros": [
+    {
+      "Wave": 1,
+      "Delay": 0,
+      "Text": "adalah adalah",
+      "X": 30,
+      "Y": 40,
+      "Size": 8
+    },
+    {
+      "Wave": 2,
+      "Delay": 0,
+      "Text": "adalah adalah",
+      "X": 30,
+      "Y": 40,
+      "Size": 8
+    }
+  ]
 }

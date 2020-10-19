@@ -46,12 +46,7 @@ namespace NearAnxiety {
                 if (col.gameObject.name == "Player Bullet") {
 
                     animator.SetBool("Is On Hit", false);
-                    // TODO animate enemy on hit
                     HP--;
-
-                    if(HP % 4 == 0) {
-                        //Instantiate(EnemyExplosionSmall, transform.position, Quaternion.identity);
-                    }
 
                     if (HP == 0) {
                         Instantiate(EnemyExplosion, transform.position, Quaternion.identity);

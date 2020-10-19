@@ -22,8 +22,6 @@ namespace NearAnxiety {
                     Destroy(gameObject);
                     return;
                 }
-
-
             }
         }
     }
