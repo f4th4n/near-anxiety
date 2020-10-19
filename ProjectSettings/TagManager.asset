@@ -8,6 +8,7 @@ TagManager:
   - Player Bullet
   - Language Button
   - Heart
+  - Intro Canvas
   layers:
   - Default
   - TransparentFX

@@ -79,23 +79,5 @@
     "Trust",
     "Anticipation"
   ],
-  "bullets": ["single", "cross-plus", "plus-rotation"],
-  "Intros": [
-    {
-      "Wave": 1,
-      "Delay": 0,
-      "Text": "adalah adalah",
-      "X": 30,
-      "Y": 40,
-      "Size": 8
-    },
-    {
-      "Wave": 2,
-      "Delay": 0,
-      "Text": "adalah adalah",
-      "X": 30,
-      "Y": 40,
-      "Size": 8
-    }
-  ]
+  "bullets": ["single", "cross-plus", "plus-rotation"]
 }

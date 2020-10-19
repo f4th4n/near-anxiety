@@ -1,0 +1,28 @@
+{
+  "Items": [
+    {
+      "Wave": 1,
+      "Delay": 0,
+      "Text": "adlkfajlsdjf als flkdsa jfldjasl jfsfasdf ads fsa fdf ",
+      "X": 30,
+      "Y": 40,
+      "Size": 5
+    },
+    {
+      "Wave": 1,
+      "Delay": 1,
+      "Text": "Indonesia raya",
+      "X": 70,
+      "Y": 50,
+      "Size": 12
+    },
+    {
+      "Wave": 2,
+      "Delay": 0,
+      "Text": "Wave Dua",
+      "X": 30,
+      "Y": 40,
+      "Size": 8
+    }
+  ]
+}

@@ -9,17 +9,18 @@ using UnityEngine.SceneManagement;
 namespace NearAnxiety {
     namespace Enemy {
         public class EnemiesSpawner : MonoBehaviour {
-            public GameObject enemyPrefab;
+            public GameObject EnemyPrefab;
             private int enemyRemaining = 0;
             public GameObject Transition;
             private GameObject player;
 
             void Start() {
                 player = GameObject.Find("Player");
-                spawnEnemiesByWave();
+                //SpawnEnemiesByWave();
             }
 
-            void spawnEnemiesByWave() {
+            // called by SetIntroText.cs
+            void SpawnEnemiesByWave(int _ignore) {
                 List<EnemyModel> enemiesData = getEnemiesData();
                 int playerWave = PlayerPrefs.GetInt("wave", 1);
 
@@ -62,7 +63,7 @@ namespace NearAnxiety {
             IEnumerator createEnemy(EnemyModel enemyData) {
                 yield return new WaitForSeconds(enemyData.Delay);
 
-                GameObject enemyGO = Instantiate(enemyPrefab, Vector3.zero, Quaternion.identity, transform);
+                GameObject enemyGO = Instantiate(EnemyPrefab, Vector3.zero, Quaternion.identity, transform);
                 setPos(enemyGO, enemyData);
                 GameObject enemyMove = enemyGO.transform.Find("Enemy Move").gameObject;
 
@@ -79,7 +80,6 @@ namespace NearAnxiety {
                 float yScreen = enemyData.Y / 100 * Screen.height;
                 Vector3 point = cam.ScreenToWorldPoint(new Vector3(xScreen, yScreen, cam.nearClipPlane));
                 enemyGO.transform.position = new Vector3(point.x, point.y, enemyGO.transform.position.z);
-
             }
 
             List<EnemyModel> getEnemiesData() {

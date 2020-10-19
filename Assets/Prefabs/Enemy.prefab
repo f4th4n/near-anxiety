@@ -261,6 +261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1858747887029438772}
+  - component: {fileID: 5465691624403812376}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Untagged
@@ -283,6 +284,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &5465691624403812376
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858747887029438779}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ff9c8486553068341bcf4fd3988cdc8a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8595048095991564400
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,7 +478,6 @@ MonoBehaviour:
   HP: 100
   HideExplosionDelay: 0.3
   EnemyExplosion: {fileID: 6328650957826661911, guid: d2fbf31e98197ce4683505eaf7fffad6, type: 3}
-  EnemyExplosionSmall: {fileID: 6328650957826661911, guid: 6b6d75c4bf7049541be1299b2564cdb5, type: 3}
 --- !u!114 &4513800446289305480
 MonoBehaviour:
   m_ObjectHideFlags: 0
