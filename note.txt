@@ -11,10 +11,10 @@ Level 1:
 	- Matematika
 	- Dimarahi Buguru
 	- Kalah bermain
-	- Ujian Nasional
-	- Putus Cinta
-	- Ditertawakan
 	- Kehujanan
+	- Putus Cinta
+	- Ujian Nasional
+	- Ditertawakan
 	- Bertengkar
 	[Teenager problem]
 	- Berdebat
@@ -24,9 +24,9 @@ Level 1:
 	- Beda Pendapat
 	- Tidak Punya Teman
 	- Penampilan
-	- Paket Data Habis
 	- Hantu
 	- Bayangan Tentang Hantu
+	- Paket Data Habis
 	- Kritik
 	- Tidak Populer
 	- Ban Bocor
@@ -34,51 +34,65 @@ Level 1:
 	- Lupa Pasword
 	- Bangun Kesiangan
 	- Lagu Sedih
-	- Lapar
+	- Kecoa
+	- Broken Home
 
 Level 2:
 	- Teman Meninggal
 	- Trauma Masa Kecil
 	- Rindu Kampung
 	- Tidak Sukses
-	- Takut
 	- Bangkrut
-	- Peliharaan Mati
-	- Patah Tulang
+	- Suara Kecalakaan
 	- Diabetes
+	- Kecalakaan
+	- Peliharaan Mati
+	- Keguguran
+	- Kerasukan/Trance
+	- 
+	- Patah Tulang
+	- Kanker
+	- Cerai
 	Group Gangguan Mental:
 		- /Overthinking
 		- Borderline
 		- Obesitas
-		- Waswas
-		- Depressed
+		- Waswas/Anxiety
+		- Depresi/Depressed
 		- Gila/Schizophrenia
 		- Penyakit Lupa/Dementia
 		- Autisme
 		- /OCD
 		- Self Harm
 		- Fobia/Phobia
-	- Pendidikan
-	- Malu
+		- Bipolar
 	- Kesepian
 	- Sakit pinggang
-	- Difabel
+	- Difabel/Cacat
 	- Dipecat
+	Penyakit:
+		- Maag
+		- Encok
 	Group addiction
 		- Drug Addiction
 		- Smoking addiction
 		- Porn addiction
+		- Game Addiction
+		- Kecanduan Belanja/Buy addiction
+	- Terasing
+	- Tempat Baru
+	- Tenggelam
 	- Malas Beribadah
 	- Putus Asa
 	- Merasa Tidak Berguna
-	- Encok
 	- Dibungkam
 	- Tugas
 	- Menjaga Kehormatan
 	- /Health Crisis
 	- Emptiness and Boredom
 	- Tidak ada uang untuk berobat
-	- Ditinggal Pergi
+	- Bayar Listrik
+	- Bayangan Bunuh Diri
 
 Level 4:
 - Death of loved ones
