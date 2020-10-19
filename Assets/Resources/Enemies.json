@@ -3,18 +3,18 @@
   ],
   "Items": [
     {
-      "Level": 1,
+      "Wave": 1,
       "Text": "Enemy 1",
       "X": 21,
-      "Y": 91,
+      "Y": 86,
       "Animation": "Square",
       "Delay": 0,
       "Speed": 0.5,
       "Bullet": "single",
-      "HP": 15
+      "HP": 5
     },
     {
-      "Level": 1,
+      "Wave": 1,
       "Text": "Enemy 2",
       "X": 78,
       "Y": 87,
@@ -22,10 +22,10 @@
       "Delay": 0,
       "Speed": 0.5,
       "Bullet": "single",
-      "HP": 15
+      "HP": 5
     },
     {
-      "Level": 1,
+      "Wave": 1,
       "Text": "Enemy 3",
       "X": 56,
       "Y": 65,
@@ -33,10 +33,10 @@
       "Delay": 0,
       "Speed": 0.5,
       "Bullet": "single",
-      "HP": 15
+      "HP": 5
     },
     {
-      "Level": 2,
+      "Wave": 2,
       "Text": "Enemy 4",
       "X": 47,
       "Y": 77,
@@ -44,10 +44,10 @@
       "Delay": 0,
       "Speed": 0.5,
       "Bullet": "cross-plus",
-      "HP": 15
+      "HP": 5
     },
     {
-      "Level": 2,
+      "Wave": 2,
       "Text": "Enemy 5",
       "X": 59,
       "Y": 34,
@@ -55,10 +55,10 @@
       "Delay": 0,
       "Speed": 0.5,
       "Bullet": "cross-plus",
-      "HP": 15
+      "HP": 5
     },
     {
-      "Level": 2,
+      "Wave": 2,
       "Text": "Enemy 6",
       "X": 50,
       "Y": 80,
@@ -66,10 +66,10 @@
       "Delay": 0,
       "Speed": 0.5,
       "Bullet": "plus-rotation",
-      "HP": 15
+      "HP": 5
     },
     {
-      "Level": 1,
+      "Wave": 1,
       "Text": "Enemy 7",
       "X": 59,
       "Y": 34,
@@ -77,7 +77,7 @@
       "Delay": 8,
       "Speed": 0.5,
       "Bullet": "plus-rotation",
-      "HP": 15
+      "HP": 5
     }
   ],
   "words": [

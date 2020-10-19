@@ -4,27 +4,34 @@ using UnityEngine;
 using System.IO;
 using NearAnxiety.Models;
 using NearAnxiety.Helpers;
+using UnityEngine.SceneManagement;
 
 namespace NearAnxiety {
     namespace Enemy {
         public class EnemiesSpawner : MonoBehaviour {
             public GameObject enemyPrefab;
             private int enemyRemaining = 0;
+            public GameObject Transition;
+            private GameObject player;
 
             void Start() {
-                spawnEnemiesByLevel();
+                player = GameObject.Find("Player");
+                spawnEnemiesByWave();
             }
 
-            void spawnEnemiesByLevel() {
-                PlayerPrefs.SetInt("level", 2);
+            void spawnEnemiesByWave() {
                 List<EnemyModel> enemiesData = getEnemiesData();
-                int playerLevel = PlayerPrefs.GetInt("level", 1);
+                int playerWave = PlayerPrefs.GetInt("wave", 1);
 
                 foreach (EnemyModel enemyData in enemiesData) {
-                    if (enemyData.Level != playerLevel) continue;
+                    if (enemyData.Wave != playerWave) continue;
 
                     StartCoroutine(createEnemy(enemyData));
                     enemyRemaining++;
+                }
+
+                if(enemyRemaining == 0) {
+                    SceneManager.LoadScene("TheEndScene");
                 }
             }
 
@@ -33,8 +40,23 @@ namespace NearAnxiety {
                 enemyRemaining--;
 
                 if(enemyRemaining == 0) {
-                    GameObject.Find("Transition").SendMessage("StartTransition", 1);
-				}
+                    int playerWave = PlayerPrefs.GetInt("wave", 1);
+                    playerWave++;
+                    PlayerPrefs.SetInt("wave", playerWave);
+
+                    player.SendMessage("SetInvulnerability", true);
+
+                    StartCoroutine(showTransitionThenNextWave());
+                }
+            }
+
+            IEnumerator showTransitionThenNextWave() {
+                yield return new WaitForSecondsRealtime(1f);
+
+                Instantiate(Transition);
+                yield return new WaitForSecondsRealtime(1f);
+
+                SceneManager.LoadScene("Level1Scene");
             }
 
             IEnumerator createEnemy(EnemyModel enemyData) {

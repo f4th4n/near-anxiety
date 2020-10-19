@@ -11,15 +11,32 @@ namespace NearAnxiety {
             public CameraShake cameraShake;
             public GameObject Transition;
 
-            void OnTriggerEnter2D(Collider2D col) {
+            private bool invulnerable = false;
+
+			private void Start() {
+                invulnerable = false;
+			}
+
+			void OnTriggerEnter2D(Collider2D col) {
                 if(col.gameObject.tag == "Bullet") {
+                    if (invulnerable) return;
+
                     HP--;
                     cameraShake.ShakeDuration = .2f;
 
-                    if (HP == 0) {
+                    if (HP == 2) {
+                        GameObject.Find("HUD/Lifes/Heart 3").SetActive(false);
+                    } else if (HP == 1) {
+                        GameObject.Find("HUD/Lifes/Heart 2").SetActive(false);
+                    } else if (HP == 0) {
+                        GameObject.Find("HUD/Lifes/Heart 1").SetActive(false);
                         StartCoroutine(RestartLevel());
                     }
                 }
+            }
+
+            void SetInvulnerability(bool argInvulnerable) {
+                invulnerable = argInvulnerable;
             }
 
             IEnumerator RestartLevel() {

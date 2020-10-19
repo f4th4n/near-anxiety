@@ -9,7 +9,7 @@ namespace NearAnxiety {
 		[Serializable]
 		public class EnemyModel {
 		    public string Animation;
-			public int Level;
+			public int Wave;
 			public string Text = "Text";
 			public float X = 50; // percentage of screen
 		    public float Y = 50; // percentage of screen
