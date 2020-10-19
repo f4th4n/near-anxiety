@@ -9,6 +9,7 @@ namespace NearAnxiety {
         public class PlayerOnHit : MonoBehaviour {
             public int HP = 3;
             public CameraShake cameraShake;
+            public GameObject Transition;
 
             void OnTriggerEnter2D(Collider2D col) {
                 if(col.gameObject.tag == "Bullet") {
@@ -26,6 +27,10 @@ namespace NearAnxiety {
                 yield return new WaitForSecondsRealtime(.5f);
 
                 Time.timeScale = 1;
+
+                Instantiate(Transition);
+                yield return new WaitForSecondsRealtime(1f);
+
                 SceneManager.LoadScene("Level1Scene");
             }
         }

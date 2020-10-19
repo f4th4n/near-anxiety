@@ -8,8 +8,13 @@ namespace NearAnxiety {
     namespace MainScreen {
 		public class PlayButton : MonoBehaviour {
 		    public void OnButtonPress() {
-		        SceneManager.LoadScene("Level1Scene");
-		    }
+				bool isFinishTutorial = PlayerPrefs.HasKey("is-finish-tutorial");
+				if(isFinishTutorial) {
+					SceneManager.LoadScene("Level1Scene");
+				} else {
+					SceneManager.LoadScene("Level0Scene");
+				}
+			}
 		}
 	}
 }

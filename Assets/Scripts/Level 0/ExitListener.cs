@@ -17,6 +17,7 @@ namespace NearAnxiety {
                 yield return new WaitForSecondsRealtime(1.0f);
 
                 Time.timeScale = 1;
+                PlayerPrefs.SetInt("is-finish-tutorial", 1);
                 SceneManager.LoadScene("Level1Scene");
             }
         }

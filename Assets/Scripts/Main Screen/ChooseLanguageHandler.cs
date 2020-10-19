@@ -11,7 +11,7 @@ namespace NearAnxiety {
 			public GameObject btnId;
 
 			void Start() {
-				PlayerPrefs.DeleteKey("language-choosen");
+				/// PlayerPrefs.DeleteKey("language-choosen"); // test mode
 				HandleLanguageChooserButton();
 			}
 
