@@ -15,6 +15,7 @@ namespace NearAnxiety {
         }
         
         public class EnemyShoot : MonoBehaviour {
+            public float RotationTest;
             public GameObject VulnerableBullet;
             public GameObject InvulnerableBullet;
 
@@ -33,6 +34,8 @@ namespace NearAnxiety {
                 if (bulletMode == "single") InvokeRepeating("fireSingle", 0f, 1f);
                 if (bulletMode == "cross-plus") InvokeRepeating("fireCrossPlus", 0f, 1f);
                 if (bulletMode == "plus-rotation") InvokeRepeating("firePlusWithRotation", 0f, 1f);
+                if (bulletMode == "tripet") InvokeRepeating("tripet", 0f, 1f);
+                if (bulletMode == "double-triangle") InvokeRepeating("doubleTriangle", 0f, 1f);
                 else if (bulletMode == "boss1") InvokeRepeating("fireBoss1", 0f, 0.5f);
                 else if (bulletMode == "boss2") InvokeRepeating("fireBoss2", 0f, 0.1f);
             }
@@ -137,6 +140,56 @@ namespace NearAnxiety {
 
                 BulletPos axis = new BulletPos(0 + boss2Rotation, InvulnerableBullet);
                 Instantiate(axis.gameObject, transform.position, Quaternion.AngleAxis(axis.angle, Vector3.forward), parent.transform);
+            }
+
+            private int tripetCounter = 1;
+            private void tripet() {
+                GameObject bullet = tripetCounter % 3 == 0 ? InvulnerableBullet : VulnerableBullet;
+                float rotation = 0;
+
+                if (tripetCounter % 4 == 0) {
+                    rotation = -77;
+                } else if (tripetCounter % 3 == 0) {
+                    rotation = -140;
+                } else if (tripetCounter % 2 == 0) {
+                    rotation = -200;
+                }
+
+                GameObject bullet1 = (Random.value < 0.8 ? VulnerableBullet : InvulnerableBullet);
+                GameObject bullet2 = (Random.value < 0.8 ? VulnerableBullet : InvulnerableBullet);
+                GameObject bullet3 = (Random.value < 0.8 ? VulnerableBullet : InvulnerableBullet);
+                List<BulletPos> axises = new List<BulletPos>();
+                axises.Add(new BulletPos(0f + rotation, bullet1));
+                axises.Add(new BulletPos(67.5f + rotation, bullet2));
+                axises.Add(new BulletPos(112.5f + rotation, bullet3));
+                foreach (BulletPos axis in axises) {
+                    Instantiate(axis.gameObject, transform.position, Quaternion.AngleAxis(axis.angle, Vector3.forward), parent.transform);
+                }
+
+                tripetCounter++;
+            }
+
+            private bool doubleTriangleFlip = false;
+            private void doubleTriangle() {
+                GameObject bullet1 = (Random.value < 0.5 ? VulnerableBullet : InvulnerableBullet);
+                GameObject bullet2 = (Random.value < 0.5 ? VulnerableBullet : InvulnerableBullet);
+                GameObject bullet3 = (Random.value < 0.5 ? VulnerableBullet : InvulnerableBullet);
+                List<BulletPos> axises = new List<BulletPos>();
+
+                if (doubleTriangleFlip) {
+                    axises.Add(new BulletPos(0, bullet1));
+                    axises.Add(new BulletPos(135f, bullet2));
+                    axises.Add(new BulletPos(-135, bullet3));
+                } else {
+                    axises.Add(new BulletPos(45, bullet1));
+                    axises.Add(new BulletPos(-45, bullet2));
+                    axises.Add(new BulletPos(180, bullet3));
+                }
+
+                foreach (BulletPos axis in axises) {
+                    Instantiate(axis.gameObject, transform.position, Quaternion.AngleAxis(axis.angle, Vector3.forward), parent.transform);
+                }
+                doubleTriangleFlip = !doubleTriangleFlip;
             }
         }
     }

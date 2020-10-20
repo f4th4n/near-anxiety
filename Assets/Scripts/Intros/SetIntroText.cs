@@ -23,6 +23,10 @@ namespace NearAnxiety {
                     delaySpawnEnemiesAndPlayer += intro.Delay;
                 }
 
+                if(delaySpawnEnemiesAndPlayer == 3f) {
+                    delaySpawnEnemiesAndPlayer = 0;
+                }
+
                 StartCoroutine(spawnEnemiesAndPlayerThenHideIntro(delaySpawnEnemiesAndPlayer));
             }
 
@@ -45,7 +49,9 @@ namespace NearAnxiety {
                 setPos(introGO, intro);
 
                 TextMeshProUGUI textmeshPro = introGO.transform.Find("Text").GetComponent<TextMeshProUGUI>();
-                textmeshPro.SetText(intro.Text);
+                string lang = PlayerPrefs.GetString("language", "en");
+                string text = lang == "en" ? intro.Text : intro.TextId;
+                textmeshPro.SetText(text);
                 textmeshPro.fontSize = intro.Size;
             }
 

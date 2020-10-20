@@ -23,8 +23,8 @@ TagManager:
   - Bullet
   - Wall
   - PlayerWithWall
-  - 
-  - 
+  - EnemyOnHit
+  - EnemyBullet
   - 
   - 
   - 
@@ -43,6 +43,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: EnemyBullet
+    uniqueID: 1700585177
+    locked: 0
+  - name: Level
+    uniqueID: 3030874113
+    locked: 0
+  - name: EnemyOnHit
+    uniqueID: 2198188591
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

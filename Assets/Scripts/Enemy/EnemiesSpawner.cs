@@ -6,6 +6,9 @@ using NearAnxiety.Models;
 using NearAnxiety.Helpers;
 using UnityEngine.SceneManagement;
 
+/*
+ * enemies spawned by SetIntroText, after intro is shown
+ */
 namespace NearAnxiety {
     namespace Enemy {
         public class EnemiesSpawner : MonoBehaviour {
@@ -16,7 +19,6 @@ namespace NearAnxiety {
 
             void Start() {
                 player = GameObject.Find("Player");
-                //SpawnEnemiesByWave();
             }
 
             // called by SetIntroText.cs
@@ -66,8 +68,10 @@ namespace NearAnxiety {
                 GameObject enemyGO = Instantiate(EnemyPrefab, Vector3.zero, Quaternion.identity, transform);
                 setPos(enemyGO, enemyData);
                 GameObject enemyMove = enemyGO.transform.Find("Enemy Move").gameObject;
+                string lang = PlayerPrefs.GetString("language", "en");
+                string text = lang == "en" ? enemyData.Text : enemyData.TextId;
 
-                enemyMove.SendMessage("SetText", enemyData.Text); // EnemySetText.cs
+                enemyMove.SendMessage("SetText", text); // EnemySetText.cs
                 enemyMove.SendMessage("StartMove", enemyData.Animation); // EnemyMove.cs
                 enemyMove.SendMessage("SetSpeed", enemyData.Speed); // EnemyMove.cs
                 enemyMove.SendMessage("SetHP", enemyData.HP); // EnemyMove.cs

@@ -12,10 +12,18 @@ namespace NearAnxiety {
             public GameObject Transition;
 
             private bool invulnerable = false;
+            private float invulnerableRemaining = 0f;
 
 			private void Start() {
                 invulnerable = false;
 			}
+
+			private void Update() {
+                invulnerableRemaining = invulnerableRemaining - Time.deltaTime;
+                //Debug.Log(invulnerableRemaining);
+
+                invulnerable = (invulnerableRemaining > 0);
+            }
 
 			void OnTriggerEnter2D(Collider2D col) {
                 if(col.gameObject.tag == "Bullet") {
@@ -23,6 +31,8 @@ namespace NearAnxiety {
 
                     HP--;
                     cameraShake.ShakeDuration = .2f;
+                    invulnerableRemaining = 2f;
+                    invulnerable = true;
 
                     if (HP == 2) {
                         GameObject.Find("HUD/Lifes/Heart 3").SetActive(false);

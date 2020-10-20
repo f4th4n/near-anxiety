@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5723812337873072693}
   - component: {fileID: 4548482457433531764}
   - component: {fileID: -7228853676155101478}
-  m_Layer: 8
+  m_Layer: 14
   m_Name: Enemy Bullet Vulnerable
   m_TagString: Bullet
   m_Icon: {fileID: 0}
