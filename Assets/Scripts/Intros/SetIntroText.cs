@@ -53,6 +53,11 @@ namespace NearAnxiety {
                 string text = lang == "en" ? intro.Text : intro.TextId;
                 textmeshPro.SetText(text);
                 textmeshPro.fontSize = intro.Size;
+
+                Color color;
+                if (ColorUtility.TryParseHtmlString(intro.Color, out color)) {
+                    textmeshPro.color = color;
+                }
             }
 
             private void setPos(GameObject introGo, IntroModel introData) {

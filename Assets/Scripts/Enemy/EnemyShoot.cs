@@ -38,6 +38,7 @@ namespace NearAnxiety {
                 if (bulletMode == "double-triangle") InvokeRepeating("doubleTriangle", 0f, 1f);
                 else if (bulletMode == "boss1") InvokeRepeating("fireBoss1", 0f, 0.5f);
                 else if (bulletMode == "boss2") InvokeRepeating("fireBoss2", 0f, 0.1f);
+                else if (bulletMode == "boss3") InvokeRepeating("fireBoss3", 0f, 0.1f);
             }
 
             void SetBullet(string bulletModeArg) {
@@ -191,6 +192,10 @@ namespace NearAnxiety {
                 }
                 doubleTriangleFlip = !doubleTriangleFlip;
             }
+
+            private void fireBoss3() {
+                //
+			}
         }
     }
 }

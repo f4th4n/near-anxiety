@@ -1,22 +1,24 @@
 {
   "Items": [
     {
-      "Wave": 2,
+      "Wave": 1,
       "Delay": 0,
       "Text": "Lorem Ipsum is simply dummy text of the printing",
       "TextId": "Bahasa indonesia 1",
       "X": 25,
       "Y": 80,
-      "Size": 5
+      "Size": 5,
+      "Color": "#ffea9e"
     },
     {
-      "Wave": 2,
+      "Wave": 1,
       "Delay": 2,
       "Text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
       "TextId": "Bahasa indonesia 2",
       "X": 33,
       "Y": 70,
-      "Size": 4
+      "Size": 4,
+      "Color": "#ffea9e"
     },
     {
       "Wave": 3,
@@ -25,7 +27,8 @@
       "TextId": "Bahasa indonesia 3",
       "X": 70,
       "Y": 50,
-      "Size": 6
+      "Size": 6,
+      "Color": "#ff0000"
     },
     {
       "Wave": 3,
@@ -33,7 +36,8 @@
       "Text": "Wave Dua",
       "X": 30,
       "Y": 40,
-      "Size": 8
+      "Size": 8,
+      "Color": "#ff0000"
     }
   ]
 }

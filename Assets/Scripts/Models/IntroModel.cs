@@ -14,6 +14,7 @@ namespace NearAnxiety {
 			public float Y = 50; // percentage of screen
 			public float Delay = 0;
 			public int Size = 10;
+			public string Color = "#DDDDDD";
 		}
 	}
 }
