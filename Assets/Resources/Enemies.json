@@ -10,10 +10,10 @@
       "Delay": 0,
       "Speed": 0.5,
       "Bullet": "boss1",
-      "HP": 1000
+      "HP": 30
     },
     {
-      "Wave": 1000,
+      "Wave": 1,
       "Text": "Enemy 3 En",
       "TextId": "Enemy 3 ID",
       "X": 56,
@@ -21,11 +21,11 @@
       "Animation": "Square",
       "Delay": 3,
       "Speed": 0.5,
-      "Bullet": "single",
-      "HP": 10
+      "Bullet": "boss2",
+      "HP": 30
     },
     {
-      "Wave": 1000,
+      "Wave": 1,
       "Text": "Enemy Boss En",
       "TextId": "Enemy Boss ID",
       "X": 87,
@@ -33,8 +33,8 @@
       "Animation": "Square",
       "Delay": 0,
       "Speed": 0.5,
-      "Bullet": "single",
-      "HP": 10
+      "Bullet": "boss2",
+      "HP": 30
     },
     {
       "Wave": 1000,

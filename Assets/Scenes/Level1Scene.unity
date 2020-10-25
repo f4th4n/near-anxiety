@@ -1478,6 +1478,10 @@ PrefabInstance:
       propertyPath: Transition
       value: 
       objectReference: {fileID: 2691581110193261125, guid: c6b2a0a2d9db71544bd1079d1b500923, type: 3}
+    - target: {fileID: 7681207452831306723, guid: 98acba98500ae744cbb1c44d32253be3, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8f563013fdc0e48408efba202c0897b3, type: 3}
     - target: {fileID: 7681207452831306729, guid: 98acba98500ae744cbb1c44d32253be3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1529,6 +1533,14 @@ PrefabInstance:
     - target: {fileID: 7681207452831306731, guid: 98acba98500ae744cbb1c44d32253be3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681207452831306733, guid: 98acba98500ae744cbb1c44d32253be3, type: 3}
+      propertyPath: m_Size.x
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681207452831306733, guid: 98acba98500ae744cbb1c44d32253be3, type: 3}
+      propertyPath: m_Size.y
+      value: 1.46
       objectReference: {fileID: 0}
     - target: {fileID: 7681207452831306734, guid: 98acba98500ae744cbb1c44d32253be3, type: 3}
       propertyPath: dynamicJoystickLeft

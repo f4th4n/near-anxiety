@@ -245,7 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62db8359e62a67946bcbb922202e6e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
+  Speed: 7
 --- !u!114 &7681207452831306732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,6 +275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 3
   cameraShake: {fileID: 0}
+  Transition: {fileID: 0}
 --- !u!1 &7681207453097754712
 GameObject:
   m_ObjectHideFlags: 0
