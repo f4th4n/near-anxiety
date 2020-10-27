@@ -5,6 +5,9 @@ Yg ditembaki adalah masalah2 hidup dari kecil sampai mati (dan addiction)
 Seperti anxiety, drugs, rokok.
 
 Wave 1:
+	Intro:
+		[2s] Hari ini adalah
+		[4s] Hari pertama kami sekolah
 	- Jatuh dari sepeda/Fall From a Bike
 	- PR/HW
 	- PR Fisika, PR Geografi, PR Bahasa
@@ -12,54 +15,73 @@ Wave 1:
 	- Dimarahi Buguru/Scolded By Teacher
 	- Kalah bermain/Losing a Game
 	- Kehujanan/Sopping With Rain
-	- Putus Cinta/Breakup
 	- Ujian Nasional/National Exam
 	- Ditertawakan/Laughed At
 	- Bertengkar/Fight
 
 Wave 2:
-	- Berdebat/Debate
+	Intro:
+		[2s] Lalu kami menjadi seorang remaja
+		[4s] Dan memakai baju biru putih
 	- Nilai Anjlok/Bad Grades
+	- Berdebat/Debate
 	- Kabur/Run Away
+	- Ban Bocor
 	- Dibenci/Hated
+	- Drug Addiction
 	- Beda Pendapat/Different Opinion
+	- Smoking addiction
 	- Tidak Punya Teman/No Friends
+	- Porn addiction
 	- Penampilan/Appereance
+	- Game Addiction
 	- Hantu
+	- Kecanduan Belanja/Buy addiction
+	- Putus Cinta/Breakup
 	- Bayangan Tentang Hantu
 	- Paket Data Habis
 	- Kritik
 	- Tidak Populer
-	- Ban Bocor
 	- Menangis
 	- Lupa Pasword
 	- Bangun Kesiangan
 	- Lagu Sedih
 	- Kecoa
 	- Broken Home
+	- Peliharaan Mati/Losing a Pet
 
 Wave 3
+	Intro:
+		[2s] Kami menikah
 	- Menikah/Married
+	- Tidak Punya Rumah
+	- Keguguran/Miscarriage
+	- Cicilan Rumah/Housing Loan
 	- Jual Masker/Sell Face Mask
 	- Jual Tahu Aci/Sell Tofu
-	- Jual Es Pop/Sell Lemonade
-	- Cicilan Rumah/Housing Loan
+	- Jual Pop Es/Sell Ice Pop
 
 Wave 4:
+	Intro:
+		[2s] Tidak ada waktu
+		[2s] Tidak bisa menunggu
 	- Tak tau berbuat apa/Don't Know What to do
 	- Tak ada harapan/No Hope
 	- Teman Meninggal/Friend Died
 	- Trauma Masa Kecil/Childhood Trauma
+	- Menganggur
 	- Rindu Kampung/Homesick
 	- Tidak Sukses/Not Being Successful
 	- Bisnis Bangkrut/Broke
-	- Diabetes/Diabetes
 	- Kecalakaan/Accident
-	- Peliharaan Mati/Losing a Pet
-	- Keguguran/Miscarriage
 	- Kerasukan/Trance
+	- Waswas/Anxiety
 
 Wave 5:
+	Intro:
+		[2s] Hari hari terasa semakin pelan dan mandek
+		[2s] Dan kami berharap tidak terjadi apa apa hari ini
+	- Diabetes/Diabetes
 	- Corona/Corona
 	- Kanker/Cancer
 	- Cerai/Divorce
@@ -67,7 +89,6 @@ Wave 5:
 		- /Overthinking
 		- Borderline
 		- Obesitas
-		- Waswas/Anxiety
 		- Depresi/Depressed
 		- Gila/Schizophrenia
 		- Penyakit Lupa/Dementia
@@ -83,30 +104,32 @@ Wave 5:
 	Penyakit:
 		- Maag
 		- Encok
-	Group addiction
-		- Drug Addiction
-		- Smoking addiction
-		- Porn addiction
-		- Game Addiction
-		- Kecanduan Belanja/Buy addiction
+Wave 6:
+	Intro:
+		[2s] Kehidupan benar benar berhenti
 	- Terasing
 	- Tempat Baru
 	- Tenggelam
 	- Malas Beribadah
 	- Putus Asa
 	- Merasa Tidak Berguna
-	- Dibungkam
 	- Tugas
 	- Menjaga Kehormatan
 	- Komplikasi/Health Crisis
 	- Emptiness and Boredom
 	- Tidak ada uang untuk berobat
 	- Bayar Listrik
-	- Bayangan Bunuh Diri
 
-Wave 4:
-- Death of loved ones
-- 
+Wave 7:
+	Intro:
+		[2s] Akhirnya...
+	- Bayangan Tentang Orangtua/Reflection of Parents
+	- Bayangan Tentang Sahabat/Reflection of Friends
+	- Bayangan Tentang Kekasih/Reflection of Lover
+	- Bayangan Tentang Musuh/Reflection of Enemy
+	- Bayangan Tentang Ilmu/Reflection of Knowledge
+	- Bayangan Tentang Keseharian/Behaviour/Reflection of Daily Life
+	- Bayangan Tentang Bayangan/Reflection of Reflection
 
 
 Ada scene yang ketika musuh ditembak, lama kelamaan huruf2nya berubah sama sekali, misalnya dari huruf benci jadi huruf stres.
