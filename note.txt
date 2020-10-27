@@ -4,26 +4,27 @@ Yg ditembaki adalah masalah2 hidup dari kecil sampai mati (dan addiction)
 
 Seperti anxiety, drugs, rokok.
 
-Level 1:
-	- Jatuh dari sepeda
+Wave 1:
+	- Jatuh dari sepeda/Fall From a Bike
 	- PR/HW
 	- PR Fisika, PR Geografi, PR Bahasa
-	- Matematika
-	- Dimarahi Buguru
-	- Kalah bermain
-	- Kehujanan
-	- Putus Cinta
-	- Ujian Nasional
-	- Ditertawakan
-	- Bertengkar
-	[Teenager problem]
-	- Berdebat
-	- Nilai anjlok
-	- Kabur
-	- Dibenci
-	- Beda Pendapat
-	- Tidak Punya Teman
-	- Penampilan
+	- Matematika/Math
+	- Dimarahi Buguru/Scolded By Teacher
+	- Kalah bermain/Losing a Game
+	- Kehujanan/Sopping With Rain
+	- Putus Cinta/Breakup
+	- Ujian Nasional/National Exam
+	- Ditertawakan/Laughed At
+	- Bertengkar/Fight
+
+Wave 2:
+	- Berdebat/Debate
+	- Nilai Anjlok/Bad Grades
+	- Kabur/Run Away
+	- Dibenci/Hated
+	- Beda Pendapat/Different Opinion
+	- Tidak Punya Teman/No Friends
+	- Penampilan/Appereance
 	- Hantu
 	- Bayangan Tentang Hantu
 	- Paket Data Habis
@@ -37,22 +38,31 @@ Level 1:
 	- Kecoa
 	- Broken Home
 
-Level 2:
-	- Teman Meninggal
-	- Trauma Masa Kecil
-	- Rindu Kampung
-	- Tidak Sukses
-	- Bangkrut
-	- Suara Kecalakaan
-	- Diabetes
-	- Kecalakaan
-	- Peliharaan Mati
-	- Keguguran
+Wave 3
+	- Menikah/Married
+	- Jual Masker/Sell Face Mask
+	- Jual Tahu Aci/Sell Tofu
+	- Jual Es Pop/Sell Lemonade
+	- Cicilan Rumah/Housing Loan
+
+Wave 4:
+	- Tak tau berbuat apa/Don't Know What to do
+	- Tak ada harapan/No Hope
+	- Teman Meninggal/Friend Died
+	- Trauma Masa Kecil/Childhood Trauma
+	- Rindu Kampung/Homesick
+	- Tidak Sukses/Not Being Successful
+	- Bisnis Bangkrut/Broke
+	- Diabetes/Diabetes
+	- Kecalakaan/Accident
+	- Peliharaan Mati/Losing a Pet
+	- Keguguran/Miscarriage
 	- Kerasukan/Trance
-	- 
-	- Patah Tulang
-	- Kanker
-	- Cerai
+
+Wave 5:
+	- Corona/Corona
+	- Kanker/Cancer
+	- Cerai/Divorce
 	Group Gangguan Mental:
 		- /Overthinking
 		- Borderline
@@ -88,13 +98,13 @@ Level 2:
 	- Dibungkam
 	- Tugas
 	- Menjaga Kehormatan
-	- /Health Crisis
+	- Komplikasi/Health Crisis
 	- Emptiness and Boredom
 	- Tidak ada uang untuk berobat
 	- Bayar Listrik
 	- Bayangan Bunuh Diri
 
-Level 4:
+Wave 4:
 - Death of loved ones
 - 
 
