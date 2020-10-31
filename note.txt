@@ -1,6 +1,6 @@
 Ide game shooter seperti ending nier automata
 
-Yg ditembaki adalah masalah2 hidup dari kecil sampai mati (dan addiction)
+Yg ditembaki adalah masalah2 hidup dari kecil sampai mati (dan Addiction)
 
 Seperti anxiety, drugs, rokok.
 
@@ -30,13 +30,13 @@ Wave 2:
 	- Dibenci/Hated
 	- Drug Addiction
 	- Beda Pendapat/Different Opinion
-	- Smoking addiction
+	- Smoking Addiction
 	- Tidak Punya Teman/No Friends
-	- Porn addiction
+	- Porn Addiction
 	- Penampilan/Appereance
 	- Game Addiction
 	- Hantu
-	- Kecanduan Belanja/Buy addiction
+	- Kecanduan Belanja/Buy Addiction
 	- Putus Cinta/Breakup
 	- Bayangan Tentang Hantu
 	- Paket Data Habis
@@ -79,8 +79,9 @@ Wave 4:
 
 Wave 5:
 	Intro:
-		[2s] Hari hari terasa semakin pelan dan mandek
+		[2s] Hari hari terasa semakin pelan
 		[2s] Dan kami berharap tidak terjadi apa apa hari ini
+		[2s]
 	- Diabetes/Diabetes
 	- Corona/Corona
 	- Kanker/Cancer
