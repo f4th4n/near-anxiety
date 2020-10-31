@@ -29,32 +29,32 @@ Wave 2:
 	- Ban Bocor
 	- Dibenci/Hated
 	- Drug Addiction
-	- Beda Pendapat/Different Opinion
 	- Smoking Addiction
-	- Tidak Punya Teman/No Friends
 	- Porn Addiction
-	- Penampilan/Appereance
 	- Game Addiction
-	- Hantu
+	- Beda Pendapat/Different Opinion
+	- Tidak Punya Teman/No Friends
+	- Penampilan/Appereance
+	- Hantu/Ghost
 	- Kecanduan Belanja/Buy Addiction
 	- Putus Cinta/Breakup
 	- Bayangan Tentang Hantu
-	- Paket Data Habis
-	- Kritik
-	- Tidak Populer
-	- Menangis
-	- Lupa Pasword
-	- Bangun Kesiangan
-	- Lagu Sedih
-	- Kecoa
-	- Broken Home
+	- Paket Data Habis/Have No Data
+	- Kritik/Critic
+	- Tidak Populer/Not Popular
+	- Menangis/Crying
+	- Lupa Pasword/Forget Password
+	- Bangun Kesiangan/Wake Up Late
+	- Lagu Sedih/Sad Song
+	- Kecoa/Cocroach
+	- Broken Home/Broken Home
 	- Peliharaan Mati/Losing a Pet
 
 Wave 3
 	Intro:
 		[2s] Kami menikah
 	- Menikah/Married
-	- Tidak Punya Rumah
+	- Tidak Punya Rumah/Have No Home
 	- Keguguran/Miscarriage
 	- Cicilan Rumah/Housing Loan
 	- Jual Masker/Sell Face Mask
@@ -69,7 +69,7 @@ Wave 4:
 	- Tak ada harapan/No Hope
 	- Teman Meninggal/Friend Died
 	- Trauma Masa Kecil/Childhood Trauma
-	- Menganggur
+	- Menganggur/Unemployed
 	- Rindu Kampung/Homesick
 	- Tidak Sukses/Not Being Successful
 	- Bisnis Bangkrut/Broke
@@ -87,15 +87,15 @@ Wave 5:
 	- Kanker/Cancer
 	- Cerai/Divorce
 	Group Gangguan Mental:
-		- /Overthinking
-		- Borderline
-		- Obesitas
+		- Berfikir berlebihan/Overthinking
+		- Borderline/Borderline
+		- Obesitas/Obese
 		- Depresi/Depressed
 		- Gila/Schizophrenia
 		- Penyakit Lupa/Dementia
-		- Autisme
-		- /OCD
-		- Self Harm
+		- Autisme/Autism
+		- OCD/OCD
+		- Menyakiti Diri Sendiri/Self Harm
 		- Fobia/Phobia
 		- Bipolar
 	- Kesepian
