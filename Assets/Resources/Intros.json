@@ -1,7 +1,7 @@
 {
   "Items": [
     {
-      "Wave": 1,
+      "Wave": 100,
       "Delay": 0,
       "Text": "Lorem Ipsum is simply dummy text of the printing",
       "TextId": "Bahasa indonesia 1",
@@ -11,7 +11,7 @@
       "Color": "#ffea9e"
     },
     {
-      "Wave": 1,
+      "Wave": 100,
       "Delay": 2,
       "Text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
       "TextId": "Bahasa indonesia 2",

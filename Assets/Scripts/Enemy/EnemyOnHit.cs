@@ -6,6 +6,7 @@ using UnityEngine;
 namespace NearAnxiety {
     namespace Enemy {
         public class EnemyOnHit : MonoBehaviour {
+            public int MaxHP = 100;
             public int HP = 100;
             public float HideExplosionDelay = 0.3f;
             public GameObject EnemyExplosion;
@@ -48,6 +49,8 @@ namespace NearAnxiety {
                     animator.SetBool("Is On Hit", false);
                     HP--;
 
+                    SendMessage("DecreaseHP", HP.ToString() + "," + MaxHP.ToString());
+
                     if (HP == 0) {
                         Instantiate(EnemyExplosion, transform.position, Quaternion.identity);
                         Destroy(gameObject);
@@ -62,6 +65,7 @@ namespace NearAnxiety {
 
             void SetHP(int HPArg) {
                 HP = HPArg;
+                MaxHP = HPArg;
             }
         }
     }

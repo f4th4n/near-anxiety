@@ -2,122 +2,27 @@
   "Items": [
     {
       "Wave": 1,
-      "Text": "Enemy 2 En",
-      "TextId": "Enemy 2 ID",
-      "X": 78,
-      "Y": 87,
-      "Animation": "Square",
-      "Delay": 0,
-      "Speed": 0.5,
-      "Bullet": "boss1",
-      "HP": 30
-    },
-    {
-      "Wave": 1,
-      "Text": "Enemy 3 En",
-      "TextId": "Enemy 3 ID",
-      "X": 56,
-      "Y": 65,
-      "Animation": "Square",
-      "Delay": 3,
-      "Speed": 0.5,
-      "Bullet": "boss2",
-      "HP": 30
-    },
-    {
-      "Wave": 1,
-      "Text": "Enemy Boss En",
-      "TextId": "Enemy Boss ID",
-      "X": 87,
-      "Y": 77,
-      "Animation": "Square",
-      "Delay": 0,
-      "Speed": 0.5,
-      "Bullet": "boss2",
-      "HP": 30
-    },
-    {
-      "Wave": 1000,
-      "Text": "Enemy YY En",
-      "TextId": "Enemy YY ID",
-      "X": 25,
-      "Y": 80,
-      "Animation": "Idle",
-      "Delay": 0,
-      "Speed": 0.5,
-      "Bullet": "single",
-      "HP": 10
-    },
-    {
-      "Wave": 2,
-      "Text": "Enemy 1 En",
-      "TextId": "Enemy 1 ID",
-      "X": 21,
-      "Y": 60,
-      "Animation": "Slow 3",
-      "Delay": 0,
-      "Speed": 0.5,
-      "Bullet": "boss2",
-      "HP": 10
-    },
-    {
-      "Wave": 2,
-      "Text": "Enemy 2 En",
-      "TextId": "Enemy 2 ID",
-      "X": 77,
-      "Y": 66,
-      "Animation": "Slow 3",
-      "Delay": 0,
-      "Speed": 0.5,
-      "Bullet": "boss2",
-      "HP": 10
-    },
-    {
-      "Wave": 3,
-      "Text": "Enemy 4 En",
-      "TextId": "Enemy 4 ID",
-      "X": 47,
-      "Y": 77,
-      "Animation": "Square",
-      "Delay": 0,
-      "Speed": 0.5,
-      "Bullet": "cross-plus",
-      "HP": 10
-    },
-    {
-      "Wave": 3,
-      "Text": "Enemy 5 En",
-      "TextId": "Enemy 5 ID",
-      "X": 59,
-      "Y": 34,
-      "Animation": "Triangle",
-      "Delay": 0,
-      "Speed": 0.5,
-      "Bullet": "boss1",
-      "HP": 10
-    },
-    {
-      "Wave": 3,
-      "Text": "Enemy 6 En",
-      "TextId": "Enemy 6 ID",
+      "Text": "Corona,Crona,Indonesia",
+      "TextId": "Corona,Crona,Indonesia",
       "X": 50,
       "Y": 80,
       "Animation": "Triangle",
       "Delay": 0,
       "Speed": 0.5,
       "Bullet": "plus-rotation",
-      "HP": 10
+      "HP": 15
+    },
+    {
+      "Wave": 1,
+      "Text": "Corona",
+      "TextId": "Corona",
+      "X": 66,
+      "Y": 55,
+      "Animation": "Triangle",
+      "Delay": 0,
+      "Speed": 0.5,
+      "Bullet": "plus-rotation",
+      "HP": 15
     }
-  ],
-  "words": [
-    "Fear",
-    "Anger",
-    "Sadness",
-    "Joy",
-    "Disgust",
-    "Surprise",
-    "Trust",
-    "Anticipation"
-  ],
-  "bullets": ["single", "cross-plus", "plus-rotation"]
+  ]
 }

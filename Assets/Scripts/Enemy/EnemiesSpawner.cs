@@ -71,10 +71,10 @@ namespace NearAnxiety {
                 string lang = PlayerPrefs.GetString("language", "en");
                 string text = lang == "en" ? enemyData.Text : enemyData.TextId;
 
+                enemyMove.SendMessage("SetHP", enemyData.HP); // EnemyMove.cs, EnemySetText.cs
                 enemyMove.SendMessage("SetText", text); // EnemySetText.cs
                 enemyMove.SendMessage("StartMove", enemyData.Animation); // EnemyMove.cs
                 enemyMove.SendMessage("SetSpeed", enemyData.Speed); // EnemyMove.cs
-                enemyMove.SendMessage("SetHP", enemyData.HP); // EnemyMove.cs
                 enemyMove.SendMessage("SetBullet", enemyData.Bullet); // EnemyShoot.cs
             }
 
