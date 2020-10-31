@@ -223,7 +223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 10, y: -2}
+  m_AnchoredPosition: {x: 20, y: -2}
   m_SizeDelta: {x: 336.33002, y: 50}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &197150657
@@ -276,8 +276,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 9
-  m_fontSizeBase: 9
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 301.92728, w: 7.30947}
+  m_margin: {x: 0, y: 0, z: 241.27928, w: 7.30947}
   m_textInfo:
     textComponent: {fileID: 197150657}
     characterCount: 6
@@ -787,7 +787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 2
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -951,7 +951,7 @@ RectTransform:
   m_GameObject: {fileID: 823033324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 813978434}
   - {fileID: 339454275}
@@ -961,7 +961,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 45, y: -2.5}
+  m_AnchoredPosition: {x: 100.600006, y: -6.69}
   m_SizeDelta: {x: 58.305634, y: 13.3496475}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1244361271
@@ -1481,7 +1481,7 @@ PrefabInstance:
     - target: {fileID: 7681207452831306723, guid: 98acba98500ae744cbb1c44d32253be3, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8f563013fdc0e48408efba202c0897b3, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 7681207452831306729, guid: 98acba98500ae744cbb1c44d32253be3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1536,11 +1536,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7681207452831306733, guid: 98acba98500ae744cbb1c44d32253be3, type: 3}
       propertyPath: m_Size.x
-      value: 1.01
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 7681207452831306733, guid: 98acba98500ae744cbb1c44d32253be3, type: 3}
       propertyPath: m_Size.y
-      value: 1.46
+      value: 0.61
       objectReference: {fileID: 0}
     - target: {fileID: 7681207452831306734, guid: 98acba98500ae744cbb1c44d32253be3, type: 3}
       propertyPath: dynamicJoystickLeft
