@@ -10,6 +10,8 @@ namespace NearAnxiety {
             public int HP = 100;
             public float HideExplosionDelay = 0.3f;
             public GameObject EnemyExplosion;
+            public bool Invulnerable = true; // NOT USED
+            // TODO make enemy word animated by fliping each alphabet
 
             private Animator animator;
             private GameObject explosion;

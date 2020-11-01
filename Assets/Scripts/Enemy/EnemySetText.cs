@@ -21,7 +21,6 @@ namespace NearAnxiety {
 
                 string[] texts = fullText.Split(","[0]);
                 int dividen = MaxHP / texts.Length;
-                Debug.Log(HP);
                 if (HP % dividen == 0) {
                     multiTextCounter++;
                     Text = fullText.Split(","[0])[multiTextCounter];

@@ -29,6 +29,9 @@ namespace NearAnxiety {
                 foreach (EnemyModel enemyData in enemiesData) {
                     if (enemyData.Wave != playerWave) continue;
 
+                    // TODO ftest
+                    enemyData.Delay -= 13;
+
                     StartCoroutine(createEnemy(enemyData));
                     enemyRemaining++;
                 }

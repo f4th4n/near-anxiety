@@ -12,12 +12,10 @@ Wave 1:
 	- PR/HW
 	- PR Fisika, PR Geografi, PR Bahasa
 	- Matematika/Math
-	- Dimarahi Buguru/Scolded By Teacher
+	- Dimarahi Guru/Scolded By Teacher
 	- Kalah bermain/Losing a Game
-	- Kehujanan/Sopping With Rain
-	- Ujian Nasional/National Exam
-	- Ditertawakan/Laughed At
 	- Bertengkar/Fight
+	- Ujian Nasional/National Exam
 
 Wave 2:
 	Intro:

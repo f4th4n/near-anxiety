@@ -1,28 +1,105 @@
 ﻿{
   "Items": [
+  ],
+  "SavedItems": [
     {
       "Wave": 1,
-      "Text": "Corona,Crona,Indonesia",
-      "TextId": "Corona,Crona,Indonesia",
-      "X": 50,
-      "Y": 80,
-      "Animation": "Triangle",
+      "Text": "Fall From a Bike",
+      "TextId": "Jatuh dari sepeda",
+      "X": 66,
+      "Y": 55,
+      "Animation": "Slow 2",
       "Delay": 0,
-      "Speed": 0.5,
-      "Bullet": "plus-rotation",
+      "Bullet": "single",
+      "HP": 20
+    },
+    {
+      "Wave": 1,
+      "Text": "~ HW ~",
+      "TextId": "~ PR ~",
+      "X": 11,
+      "Y": 85,
+      "Animation": "Slow",
+      "Delay": 5,
+      "Bullet": "single",
+      "HP": 5
+    },
+    {
+      "Wave": 1,
+      "Text": "~ HW ~",
+      "TextId": "~ PR ~",
+      "X": 22,
+      "Y": 88,
+      "Animation": "Slow 3",
+      "Delay": 6,
+      "Bullet": "single",
+      "HP": 5
+    },
+    {
+      "Wave": 1,
+      "Text": "~ HW ~",
+      "TextId": "~ PR ~",
+      "X": 89,
+      "Y": 82,
+      "Animation": "Square",
+      "Delay": 7,
+      "Bullet": "single",
+      "HP": 5
+    },
+    {
+      "Wave": 1,
+      "Text": "~ HW ~",
+      "TextId": "~ PR ~",
+      "X": 66,
+      "Y": 90,
+      "Animation": "Slow 3",
+      "Delay": 8,
+      "Bullet": "single",
+      "HP": 5
+    },
+    {
+      "Wave": 1,
+      "Text": "~ Math ~",
+      "TextId": "Matematika",
+      "X": 85,
+      "Y": 69,
+      "Animation": "Slow 2",
+      "Delay": 15,
+      "Bullet": "single",
+      "HP": 20
+    },
+    {
+      "Wave": 1,
+      "Text": "~ Fight ~",
+      "TextId": "Bertengkar",
+      "X": 25,
+      "Y": 77,
+      "Animation": "Slow",
+      "Delay": 15,
+      "Bullet": "single",
       "HP": 15
     },
     {
       "Wave": 1,
-      "Text": "Corona",
-      "TextId": "Corona",
-      "X": 66,
-      "Y": 55,
+      "Text": "Scolded By Teacher",
+      "TextId": "Dimarahi Guru",
+      "X": 33,
+      "Y": 60,
       "Animation": "Triangle",
-      "Delay": 0,
-      "Speed": 0.5,
-      "Bullet": "plus-rotation",
-      "HP": 15
+      "Delay": 17,
+      "Bullet": "single",
+      "HP": 8
+    },
+    {
+      "Wave": 1,
+      "Text": "National Exam",
+      "TextId": "Ujian Nasional",
+      "X": 53,
+      "Y": 92,
+      "Animation": "Slow 3",
+      "Delay": 19,
+      "Bullet": "tripet",
+      "HP": 30
     }
   ]
 }
