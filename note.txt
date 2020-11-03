@@ -24,21 +24,15 @@ Wave 2:
 	- Nilai Anjlok/Bad Grades
 	- Berdebat/Debate
 	- Kabur/Run Away
-	- Ban Bocor
-	- Dibenci/Hated
-	- Drug Addiction
-	- Smoking Addiction
-	- Porn Addiction
-	- Game Addiction
-	- Kecanduan Belanja/Buy Addiction
 	- Beda Pendapat/Different Opinion
 	- Tidak Punya Teman/No Friends
 	- Penampilan/Appereance
 	- Hantu/Ghost
 	- Putus Cinta/Breakup
 	- Bayangan Tentang Hantu
-	- Paket Data Habis/Have No Data
 	- Kritik/Critic
+	- Paket Data Habis/Have No Data
+Wave 3
 	- Tidak Populer/Not Popular
 	- Menangis/Crying
 	- Lupa Pasword/Forget Password
@@ -46,6 +40,11 @@ Wave 2:
 	- Lagu Sedih/Sad Song
 	- Kecoa/Cocroach
 	- Broken Home/Broken Home
+	- Kecanduan Belanja/Buy Addiction
+	- Drug Addiction
+	- Smoking Addiction
+	- Porn Addiction
+	- Game Addiction
 	- Peliharaan Mati/Losing a Pet
 
 Wave 3

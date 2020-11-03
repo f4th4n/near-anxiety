@@ -1,7 +1,7 @@
-﻿{
-  "Items": [
-  ],
+{
   "SavedItems": [
+  ],
+  "Items": [
     {
       "Wave": 1,
       "Text": "Fall From a Bike",
@@ -88,7 +88,7 @@
       "Animation": "Triangle",
       "Delay": 17,
       "Bullet": "single",
-      "HP": 8
+      "HP": 12
     },
     {
       "Wave": 1,
@@ -99,7 +99,273 @@
       "Animation": "Slow 3",
       "Delay": 19,
       "Bullet": "tripet",
-      "HP": 30
+      "HP": 50
+    },
+    {
+      "Wave": 2,
+      "Text": "Bad Grades",
+      "TextId": "Nilai Anjlok",
+      "X": 43,
+      "Y": 92,
+      "Animation": "Slow",
+      "Delay": 0,
+      "Bullet": "tripet",
+      "HP": 20
+    },
+    {
+      "Wave": 2,
+      "Text": "Debate",
+      "TextId": "Berdebat",
+      "X": 77,
+      "Y": 92,
+      "Animation": "Slow 2",
+      "Delay": 0,
+      "Bullet": "tripet",
+      "HP": 20
+    },
+    {
+      "Wave": 2,
+      "Text": "Run Away",
+      "TextId": "Kabur",
+      "X": 50,
+      "Y": 50,
+      "Animation": "Slow 3",
+      "Delay": 2,
+      "Bullet": "cross-plus",
+      "HP": 12
+    },
+    {
+      "Wave": 2,
+      "Text": "Different Opinion",
+      "TextId": "Beda Pendapat",
+      "X": 33,
+      "Y": 89,
+      "Animation": "Slow 3",
+      "Delay": 2,
+      "Bullet": "plus-rotation",
+      "HP": 20
+    },
+    {
+      "Wave": 2,
+      "Text": "No Friends",
+      "TextId": "Tidak Punya Teman",
+      "X": 55,
+      "Y": 78,
+      "Animation": "Slow 3",
+      "Delay": 4,
+      "Bullet": "tripet",
+      "HP": 20
+    },
+    {
+      "Wave": 2,
+      "Text": "Appereance",
+      "TextId": "Penampilan",
+      "X": 88,
+      "Y": 32,
+      "Animation": "Slow 3",
+      "Delay": 4,
+      "Bullet": "plus-rotation",
+      "HP": 20
+    },
+    {
+      "Wave": 2,
+      "Text": "Ghost",
+      "TextId": "Hantu",
+      "X": 90,
+      "Y": 90,
+      "Animation": "Slow 3",
+      "Delay": 6,
+      "Bullet": "double-triangle",
+      "HP": 20
+    },
+    {
+      "Wave": 2,
+      "Text": "",
+      "TextId": "Bayangan Tentang Hantu",
+      "X": 35,
+      "Y": 20,
+      "Animation": "Slow 3",
+      "Delay": 6,
+      "Bullet": "double-triangle",
+      "HP": 20
+    },
+    {
+      "Wave": 2,
+      "Text": "Breakup",
+      "TextId": "Putus Cinta",
+      "X": 77,
+      "Y": 64,
+      "Animation": "Slow 3",
+      "Delay": 10,
+      "Bullet": "tripet",
+      "HP": 20
+    },
+    {
+      "Wave": 2,
+      "Text": "Critic",
+      "TextId": "Kritik",
+      "X": 33,
+      "Y": 78,
+      "Animation": "Slow 3",
+      "Delay": 10,
+      "Bullet": "tripet",
+      "HP": 20
+    },
+    {
+      "Wave": 2,
+      "Text": "Have No Data",
+      "TextId": "Paket Data Habis",
+      "X": 50,
+      "Y": 86,
+      "Animation": "Triangle",
+      "Delay": 15,
+      "Bullet": "boss1",
+      "HP": 60
+    },
+
+
+    {
+      "Wave": 3,
+      "Text": "Not Popular",
+      "TextId": "Tidak Populer",
+      "X": 50,
+      "Y": 80,
+      "Animation": "Triangle",
+      "Delay": 0,
+      "Bullet": "boss2",
+      "HP": 15
+    },
+    {
+      "Wave": 3,
+      "Text": "Crying",
+      "TextId": "Menangis",
+      "X": 0,
+      "Y": 0,
+      "Animation": "Triangle",
+      "Delay": 100,
+      "Bullet": "",
+      "HP": 15
+    },
+    {
+      "Wave": 3,
+      "Text": "Forget Password",
+      "TextId": "Lupa Pasword",
+      "X": 0,
+      "Y": 0,
+      "Animation": "Triangle",
+      "Delay": 100,
+      "Bullet": "",
+      "HP": 15
+    },
+    {
+      "Wave": 3,
+      "Text": "Wake Up Late",
+      "TextId": "Bangun Kesiangan",
+      "X": 0,
+      "Y": 0,
+      "Animation": "Triangle",
+      "Delay": 100,
+      "Bullet": "",
+      "HP": 15
+    },
+    {
+      "Wave": 3,
+      "Text": "Sad Song",
+      "TextId": "Lagu Sedih",
+      "X": 0,
+      "Y": 0,
+      "Animation": "Triangle",
+      "Delay": 100,
+      "Bullet": "",
+      "HP": 15
+    },
+    {
+      "Wave": 3,
+      "Text": "Cocroach",
+      "TextId": "Kecoa",
+      "X": 0,
+      "Y": 0,
+      "Animation": "Triangle",
+      "Delay": 100,
+      "Bullet": "",
+      "HP": 15
+    },
+    {
+      "Wave": 3,
+      "Text": "Broken Home",
+      "TextId": "Broken Home",
+      "X": 0,
+      "Y": 0,
+      "Animation": "Triangle",
+      "Delay": 100,
+      "Bullet": "",
+      "HP": 15
+    },
+    {
+      "Wave": 3,
+      "Text": "Buy Addiction",
+      "TextId": "Kecanduan Belanja",
+      "X": 0,
+      "Y": 0,
+      "Animation": "Triangle",
+      "Delay": 100,
+      "Bullet": "",
+      "HP": 15
+    },
+    {
+      "Wave": 3,
+      "Text": "Drug Addiction",
+      "TextId": "",
+      "X": 0,
+      "Y": 0,
+      "Animation": "Triangle",
+      "Delay": 100,
+      "Bullet": "",
+      "HP": 15
+    },
+    {
+      "Wave": 3,
+      "Text": "Smoking Addiction",
+      "TextId": "",
+      "X": 0,
+      "Y": 0,
+      "Animation": "Triangle",
+      "Delay": 100,
+      "Bullet": "",
+      "HP": 15
+    },
+    {
+      "Wave": 3,
+      "Text": "Porn Addiction",
+      "TextId": "",
+      "X": 0,
+      "Y": 0,
+      "Animation": "Triangle",
+      "Delay": 100,
+      "Bullet": "",
+      "HP": 15
+    },
+    {
+      "Wave": 3,
+      "Text": "Game Addiction",
+      "TextId": "",
+      "X": 0,
+      "Y": 0,
+      "Animation": "Triangle",
+      "Delay": 100,
+      "Bullet": "",
+      "HP": 15
+    },
+    {
+      "Wave": 3,
+      "Text": "Losing a Pet",
+      "TextId": "Peliharaan Mati",
+      "X": 0,
+      "Y": 0,
+      "Animation": "Triangle",
+      "Delay": 100,
+      "Bullet": "",
+      "HP": 15
     }
   ]
 }

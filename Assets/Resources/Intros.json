@@ -21,22 +21,23 @@
       "Color": "#ffea9e"
     },
     {
-      "Wave": 3,
-      "Delay": 5,
-      "Text": "Excepteur sint occaecat cupidatat non proident, sunt in culpa",
-      "TextId": "Bahasa indonesia 3",
+      "Wave": 2,
+      "Delay": 2,
+      "Text": "And then we become a teenager",
+      "TextId": "Lalu kami menjadi seorang remaja",
       "X": 70,
       "Y": 50,
-      "Size": 6,
+      "Size": 5,
       "Color": "#ff0000"
     },
     {
-      "Wave": 3,
-      "Delay": 0,
-      "Text": "Wave Dua",
-      "X": 30,
+      "Wave": 2,
+      "Delay": 4,
+      "Text": "And we're wearing blue and white uniform",
+      "TextId": "Dan memakai baju biru putih",
+      "X": 40,
       "Y": 40,
-      "Size": 8,
+      "Size": 7,
       "Color": "#ff0000"
     }
   ]

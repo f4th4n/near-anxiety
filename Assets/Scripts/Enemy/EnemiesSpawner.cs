@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.IO;
 using NearAnxiety.Models;
 using NearAnxiety.Helpers;
 using UnityEngine.SceneManagement;
@@ -30,7 +29,7 @@ namespace NearAnxiety {
                     if (enemyData.Wave != playerWave) continue;
 
                     // TODO ftest
-                    enemyData.Delay -= 13;
+                    //enemyData.Delay -= 13;
 
                     StartCoroutine(createEnemy(enemyData));
                     enemyRemaining++;
