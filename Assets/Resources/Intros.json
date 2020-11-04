@@ -39,6 +39,16 @@
       "Y": 40,
       "Size": 7,
       "Color": "#ff0000"
+    },
+    {
+      "Wave": 4,
+      "Delay": 1,
+      "Text": "And we're married",
+      "TextId": "Lalu kami menikah",
+      "X": 20,
+      "Y": 80,
+      "Size": 7,
+      "Color": "#ff0000"
     }
   ]
 }

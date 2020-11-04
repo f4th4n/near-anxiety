@@ -20,6 +20,7 @@ namespace NearAnxiety {
                     if (isVulnerableBullet) {
                         animator.SetBool("Is On Hit", true);
                         circleCollider.enabled = false;
+                        Destroy(col.gameObject);
                     }
                 }
             }

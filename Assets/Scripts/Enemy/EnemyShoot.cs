@@ -194,8 +194,10 @@ namespace NearAnxiety {
             }
 
             private void fireBoss3() {
-                //
-			}
+                fireSingle();
+                fireSingle();
+                fireSingle();
+            }
         }
     }
 }
