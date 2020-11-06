@@ -549,9 +549,9 @@
       "TextId": "Waswas",
       "X": 50,
       "Y": 80,
-      "Animation": "Slow 2",
+      "Animation": "custom-anxiety",
       "Delay": 20,
-      "Bullet": "boss3",
+      "Bullet": "boss1",
       "HP": 50
     }
   ]
