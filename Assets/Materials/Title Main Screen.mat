@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MKGlowTex:
-        m_Texture: {fileID: 2800000, guid: 283f897e4925411ebbaa758b4cb13fc2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 54628aafa20f64b40ae661038ee7abf0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -89,8 +89,8 @@ Material:
     - _GlossyReflections: 1
     - _InvFade: 0.01
     - _LightingEnabled: 0
-    - _MKGlowPower: 0.87
-    - _MKGlowTexStrength: 1
+    - _MKGlowPower: 0.8
+    - _MKGlowTexStrength: 1.18
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1

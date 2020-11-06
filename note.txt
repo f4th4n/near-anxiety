@@ -47,7 +47,7 @@ Wave 3
 	- Game Addiction
 	- Peliharaan Mati/Losing a Pet
 
-Wave 3
+Wave 4
 	Intro:
 		[2s] Kami menikah
 	- Menikah/Married
@@ -58,10 +58,10 @@ Wave 3
 	- Jual Tahu Aci/Sell Tofu
 	- Jual Pop Es/Sell Ice Pop
 
-Wave 4:
+Wave 5:
 	Intro:
-		[2s] Tidak ada waktu
-		[2s] Tidak bisa menunggu
+		[2s] Kehabisan waktu
+		[2s] Terlalu tua untuk sukses diusia muda
 	- Tak tau berbuat apa/Don't Know What to do
 	- Tak ada harapan/No Hope
 	- Teman Meninggal/Friend Died

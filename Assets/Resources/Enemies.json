@@ -443,6 +443,116 @@
       "Delay": 25,
       "Bullet": "boss1",
       "HP": 50
+    },
+    {
+      "Wave": 5,
+      "Text": "No Hope",
+      "TextId": "Tak ada harapan",
+      "X": 30,
+      "Y": 80,
+      "Animation": "Slow 2",
+      "Delay": 0,
+      "Bullet": "single",
+      "HP": 15
+    },
+    {
+      "Wave": 5,
+      "Text": "Unemployed",
+      "TextId": "Menganggur",
+      "X": 80,
+      "Y": 80,
+      "Animation": "Slow 2",
+      "Delay": 0,
+      "Bullet": "cross-plus",
+      "HP": 40
+    },
+    {
+      "Wave": 5,
+      "Text": "Childhood Trauma",
+      "TextId": "Trauma Masa Kecil",
+      "X": 10,
+      "Y": 90,
+      "Animation": "Slow",
+      "Delay": 2,
+      "Bullet": "double-triangle",
+      "HP": 12
+    },
+    {
+      "Wave": 5,
+      "Text": "Friend Passed Away",
+      "TextId": "Teman Meninggal",
+      "X": 90,
+      "Y": 20,
+      "Animation": "Slow 3",
+      "Delay": 2,
+      "Bullet": "double-triangle",
+      "HP": 15
+    },
+    {
+      "Wave": 5,
+      "Text": "Homesick",
+      "TextId": "Rindu Kampung Halaman",
+      "X": 20,
+      "Y": 17,
+      "Animation": "Slow",
+      "Delay": 4,
+      "Bullet": "double-triangle",
+      "HP": 30
+    },
+    {
+      "Wave": 5,
+      "Text": "Not Being Successful",
+      "TextId": "Tidak Sukses",
+      "X": 60,
+      "Y": 10,
+      "Animation": "Slow 2",
+      "Delay": 6,
+      "Bullet": "tripet",
+      "HP": 40
+    },
+    {
+      "Wave": 5,
+      "Text": "Broke",
+      "TextId": "Bisnis Bangkrut",
+      "X": 10,
+      "Y": 86,
+      "Animation": "Slow",
+      "Delay": 10,
+      "Bullet": "plus-rotation",
+      "HP": 20
+    },
+    {
+      "Wave": 5,
+      "Text": "Accident",
+      "TextId": "Kecalakaan",
+      "X": 78,
+      "Y": 86,
+      "Animation": "Slow 3",
+      "Delay": 10,
+      "Bullet": "plus-rotation",
+      "HP": 20
+    },
+    {
+      "Wave": 5,
+      "Text": "Trance",
+      "TextId": "Kerasukan",
+      "X": 70,
+      "Y": 70,
+      "Animation": "Slow 2",
+      "Delay": 12,
+      "Bullet": "cross-plus",
+      "HP": 15
+    },
+    {
+      "Wave": 5,
+      "Text": "Anxiety",
+      "TextId": "Waswas",
+      "X": 50,
+      "Y": 80,
+      "Animation": "Slow 2",
+      "Delay": 20,
+      "Bullet": "boss3",
+      "HP": 50
     }
   ]
 }

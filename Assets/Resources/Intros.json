@@ -49,6 +49,26 @@
       "Y": 80,
       "Size": 7,
       "Color": "#ff0000"
+    },
+    {
+      "Wave": 5000,
+      "Delay": 1,
+      "Text": "We're running out of time",
+      "TextId": "Kami kehabisan waktu",
+      "X": 20,
+      "Y": 80,
+      "Size": 5,
+      "Color": "#ff0000"
+    },
+    {
+      "Wave": 5000,
+      "Delay": 3,
+      "Text": "And too old to be successful at a young age",
+      "TextId": "Dan terlalu tua untuk sukses diusia muda",
+      "X": 50,
+      "Y": 70,
+      "Size": 5,
+      "Color": "#ff0000"
     }
   ]
 }
