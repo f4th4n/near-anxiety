@@ -7,7 +7,7 @@ namespace NearAnxiety {
         public class PlayerShoot : MonoBehaviour {
             public float FireBulletEveryInSeconds = 1f;
             public GameObject projectile;
-            public bool EnableShoot = true;
+            public bool EnableShoot = false;
 
             private float lastTimeSpawn;
             private GameObject playerBulletsContainer;
@@ -16,9 +16,16 @@ namespace NearAnxiety {
             void Start() {
                 playerBulletsContainer = GameObject.Find("Player Bullets Container");
                 source = GetComponent<AudioSource>();
+
+                Invoke("enableShootDelay", 2f);
             }
 
+            void enableShootDelay() {
+                EnableShoot = true;
+			}
+
             void Update() {
+                Debug.Log("EnableShoot " + EnableShoot);
                 if (!EnableShoot) return;
 
                 lastTimeSpawn += Time.deltaTime;

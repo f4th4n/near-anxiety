@@ -6,7 +6,7 @@ namespace NearAnxiety {
     public class SetStateLevel1 : MonoBehaviour {
         void Start() {
             // test test
-            PlayerPrefs.SetInt("wave", 5);
+            PlayerPrefs.SetInt("wave", 1);
             PlayerPrefs.SetString("language", "en");
 
             OnReset();

@@ -1,7 +1,7 @@
 {
   "Items": [
     {
-      "Wave": 1000,
+      "Wave": 1,
       "Delay": 0,
       "Text": "Hari ini adalah",
       "TextId": "Today is first day",
@@ -11,7 +11,7 @@
       "Color": "#ffea9e"
     },
     {
-      "Wave": 1000,
+      "Wave": 1,
       "Delay": 2,
       "Text": "Hari pertama kami sekolah",
       "TextId": "We go to school",
