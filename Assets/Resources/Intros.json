@@ -3,8 +3,8 @@
     {
       "Wave": 1,
       "Delay": 0,
-      "Text": "Hari ini adalah",
-      "TextId": "Today is first day",
+      "Text": "Today is first day",
+      "TextId": "Hari ini adalah",
       "X": 25,
       "Y": 80,
       "Size": 5,
@@ -13,8 +13,8 @@
     {
       "Wave": 1,
       "Delay": 2,
-      "Text": "Hari pertama kami sekolah",
-      "TextId": "We go to school",
+      "Text": "We go to school",
+      "TextId": "Hari pertama kami sekolah",
       "X": 33,
       "Y": 70,
       "Size": 4,
@@ -51,7 +51,7 @@
       "Color": "#ff0000"
     },
     {
-      "Wave": 5000,
+      "Wave": 5,
       "Delay": 1,
       "Text": "We're running out of time",
       "TextId": "Kami kehabisan waktu",
@@ -61,7 +61,7 @@
       "Color": "#ff0000"
     },
     {
-      "Wave": 5000,
+      "Wave": 5,
       "Delay": 3,
       "Text": "And too old to be successful at a young age",
       "TextId": "Dan terlalu tua untuk sukses diusia muda",

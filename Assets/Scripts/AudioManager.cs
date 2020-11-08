@@ -7,13 +7,14 @@ namespace NearAnxiety {
     public class AudioManager : MonoBehaviour {
         private bool stopIntroLoop = false;
         private AudioSource audioSource;
+        private static GameObject introGO;
 
-		private void Start() {
+        private void Start() {
             audioSource = GetComponent<AudioSource>();
         }
 
-		// Update is called once per frame
-		void Update() {
+        // Update is called once per frame
+        void Update() {
             Scene scene = SceneManager.GetActiveScene();
             stopIntroLoop = scene.name != "HomeScene";
 
@@ -35,7 +36,14 @@ namespace NearAnxiety {
             } else {
                 instance = this;
             }
+
+            introGO = this.gameObject;
             DontDestroyOnLoad(this.gameObject);
+        }
+
+        public static GameObject GetIntro() {
+
+            return introGO;
         }
     }
 }

@@ -534,14 +534,14 @@
     },
     {
       "Wave": 5,
-      "Text": "Trance",
-      "TextId": "Kerasukan",
+      "Text": "Rheumatism",
+      "TextId": "Encok",
       "X": 70,
       "Y": 70,
       "Animation": "Slow 2",
       "Delay": 12,
       "Bullet": "cross-plus",
-      "HP": 15
+      "HP": 25
     },
     {
       "Wave": 5,

@@ -17,7 +17,8 @@ namespace NearAnxiety {
                 playerBulletsContainer = GameObject.Find("Player Bullets Container");
                 source = GetComponent<AudioSource>();
 
-                Invoke("enableShootDelay", 2f);
+                float delay = (PlayerPrefs.GetInt("wave") == 4 ? 13f : 2f);
+                Invoke("enableShootDelay", delay);
             }
 
             void enableShootDelay() {
@@ -25,7 +26,6 @@ namespace NearAnxiety {
 			}
 
             void Update() {
-                Debug.Log("EnableShoot " + EnableShoot);
                 if (!EnableShoot) return;
 
                 lastTimeSpawn += Time.deltaTime;

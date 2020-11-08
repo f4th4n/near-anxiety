@@ -31,7 +31,8 @@ namespace NearAnxiety {
 				if (isFinishTutorial) {
 					SceneManager.LoadScene("Level1Scene");
 				} else {
-					SceneManager.LoadScene("Level0Scene");
+					//SceneManager.LoadScene("Level0Scene");
+					SceneManager.LoadScene("Level1Scene");
 				}
 			}
 		}
